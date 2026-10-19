@@ -4,6 +4,8 @@
 
 目前包含 `leader`：将需求整理为目标清楚、背景充分、步骤可执行、结果可核查的任务书，供本地 AI 执行者或网页版模型使用。
 
+`leader` 基于 [KKKKhazix/khazix-skills 中的 leader](https://github.com/KKKKhazix/khazix-skills/tree/main/leader) 修改。README 的用途说明、目标要素与使用流程参考了[原仓库 README 的 leader 部分](https://github.com/KKKKhazix/khazix-skills/blob/main/README.md)，并按本版本的实际行为重新编写。具体调整见 [leader 的修改说明](leader/README.md#相对于原版的主要调整)。
+
 ## 技能目录
 
 | 技能 | 用途 | 使用说明 | 指令入口 |
@@ -64,13 +66,3 @@ skills/
 ```
 
 后续技能可采用同样的独立目录结构，并在各自说明中注明来源、使用方法与适用许可。
-
-## 作者、许可与引用
-
-本仓库由 [luckingclark](https://github.com/luckingclark) 整理与维护，当前版本根据实际使用中的表达、任务拆解和跨环境交付需求进行调整。
-
-`leader` 基于 [KKKKhazix/khazix-skills 中的 leader](https://github.com/KKKKhazix/khazix-skills/tree/main/leader) 修改。README 的用途说明、目标要素与使用流程参考了[原仓库 README 的 leader 部分](https://github.com/KKKKhazix/khazix-skills/blob/main/README.md)，并按本版本的实际行为重新编写。具体调整见 [leader 的修改说明](leader/README.md#相对于原版的主要调整)。
-
-各技能的许可范围以相应目录内的许可文件为准。当前 `leader` 及其配套说明沿用原项目的 MIT 许可；[leader/LICENSE](leader/LICENSE) 完整保留原项目的版权声明与许可文本。该许可说明不预设未来新增技能的授权方式。
-
-反馈可提交至[本仓库 Issues](https://github.com/luckingclark/skills/issues)。引用或再分发时，请注明本仓库地址、所用提交或版本，并保留 `leader` 的上游来源与许可信息。
